@@ -48,8 +48,6 @@ setup(
     install_requires=[
         "Wagtail>=4.1",
         "user-agents>=2.2,<2.3",
-        "numpy>=1.19.4,<1.25",
-        "scipy>=1.5.4,<1.10",
     ],
     extras_require={
         "testing": ["dj-database-url==0.5.0", "freezegun==1.2.1"],
