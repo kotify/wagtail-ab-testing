@@ -293,7 +293,7 @@ class AbTest(models.Model):
                 return status + " (" + _("Variant won") + ")"
 
             else:
-                return status + " (" + _("No clear winner") + ")"
+                return status
 
         else:
             return status
